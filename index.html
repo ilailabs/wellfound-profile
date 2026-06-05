@@ -1,1 +1,378 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elankovan Gopal | Product Developer & Technology Consultant</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+    --primary:#0f4c81;
+    --secondary:#1d71b8;
+    --light:#f4f8fc;
+    --dark:#1f2937;
+    --text:#4b5563;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+    background:#f8fbff;
+    color:var(--text);
+    line-height:1.7;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.hero{
+    background:linear-gradient(135deg,#0f4c81,#1d71b8);
+    color:white;
+    padding:80px 0;
+}
+
+.hero-content{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.profile-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:6px solid rgba(255,255,255,.25);
+    object-fit:cover;
+}
+
+.hero-text h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.hero-text h2{
+    font-weight:400;
+    opacity:.95;
+}
+
+.contact{
+    margin-top:20px;
+}
+
+.contact a{
+    color:white;
+    text-decoration:none;
+    margin-right:20px;
+}
+
+section{
+    padding:60px 0;
+}
+
+.section-title{
+    color:var(--primary);
+    margin-bottom:25px;
+    font-size:2rem;
+    border-left:5px solid var(--secondary);
+    padding-left:15px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,.06);
+    margin-bottom:20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+}
+
+.tag{
+    display:inline-block;
+    padding:8px 14px;
+    background:#e8f3ff;
+    color:var(--primary);
+    border-radius:25px;
+    margin:6px;
+    font-size:14px;
+    font-weight:500;
+}
+
+.timeline-item{
+    border-left:3px solid var(--secondary);
+    padding-left:20px;
+    margin-bottom:30px;
+}
+
+.timeline-item h3{
+    color:var(--primary);
+}
+
+footer{
+    background:#0f4c81;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+<div class="container">
+
+<div class="hero-content">
+
+<img src="profile.jpg" class="profile-img">
+
+<div class="hero-text">
+<h1>Elankovan Gopal</h1>
+<h2>Product Developer • Flutter Engineer • Technology Consultant</h2>
+
+<div class="contact">
+<a href="mailto:elankovanmg@gmail.com">elankovanmg@gmail.com</a>
+<a href="https://wa.me/919940275422">+91 9940275422</a>
+<a href="https://ilailabs.github.io/elan-iisc">Portfolio</a>
+</div>
+
+</div>
+</div>
+</div>
+</header>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Professional Summary</h2>
+
+<div class="card">
+<p>
+Product Developer and Technology Consultant with experience building
+FinTech, Healthcare, Web3 and SaaS products for startups.
+
+Specialized in Flutter-based cross-platform development,
+blockchain integrations, product architecture, UI/UX design,
+and startup technology strategy.
+
+Led development of crypto wallets, healthcare applications,
+enterprise platforms and scientific computing tools.
+
+Combines engineering expertise with startup execution,
+business understanding, and research-driven problem solving.
+
+Former Research Scholar at IIT Madras with a background in
+Computational Material Science, Scientific Computing,
+Python, MATLAB, and product innovation.
+</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Career Highlights</h2>
+
+<div class="timeline-item">
+<h3>Technology Consultant & Product Developer</h3>
+<p>ilaiLabs Research Inc. | 2023 - Present</p>
+<p>
+Partnered with startup founders and CEOs to design technology roadmaps,
+build MVPs, develop software products and drive technical strategy.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>Software Developer</h3>
+<p>AMEPAY Pvt Ltd | 2021 - 2023</p>
+<p>
+Built blockchain-based fintech products including crypto wallets,
+CBDC payment solutions, Ethereum smart contract integrations,
+and secure transaction platforms.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>Research Scholar</h3>
+<p>IIT Madras</p>
+<p>
+Conducted computational material science research,
+scientific simulations, and engineering software development
+using Python and MATLAB.
+</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Key Startup Projects</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>AME Wallet</h3>
+<p>
+Lead Product Developer & Designer for a cryptocurrency wallet
+handling millions of transactions on an EVM-compatible blockchain.
+Built secure wallet infrastructure, AES encryption,
+seed phrase recovery, blockchain integrations and
+highly scalable Flutter architecture.
+</p>
+</div>
+
+<div class="card">
+<h3>Xaults Wallet</h3>
+<p>
+CBDC payment application supporting India's eRupee ecosystem.
+Implemented wallet functionalities, blockchain integrations,
+and payment workflows.
+</p>
+</div>
+
+<div class="card">
+<h3>Rife Technology</h3>
+<p>
+Product Designer and Developer for a US healthcare startup.
+Designed and developed mobile applications for frequency-based
+healthcare solutions across Android and iOS.
+</p>
+</div>
+
+<div class="card">
+<h3>AI Powered ERP Platform</h3>
+<p>
+Designed and built an ERP ecosystem integrating AI,
+behavioral science, project management,
+and business intelligence capabilities.
+</p>
+</div>
+
+<div class="card">
+<h3>Exchange Rate Analytics</h3>
+<p>
+Developed fintech analytics platforms processing
+live market data from Binance and other exchanges
+with real-time calculations and visual insights.
+</p>
+</div>
+
+<div class="card">
+<h3>Scientific Computing Tools</h3>
+<p>
+Built Python command-line applications for computational
+material science simulations and molecular dynamics research.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Core Technologies</h2>
+
+<div class="card">
+
+<span class="tag">Flutter</span>
+<span class="tag">Dart</span>
+<span class="tag">Python</span>
+<span class="tag">MATLAB</span>
+<span class="tag">Web3</span>
+<span class="tag">Ethereum</span>
+<span class="tag">Blockchain</span>
+<span class="tag">Smart Contracts</span>
+<span class="tag">FinTech</span>
+<span class="tag">REST APIs</span>
+<span class="tag">Firebase</span>
+<span class="tag">SaaS</span>
+<span class="tag">Product Design</span>
+<span class="tag">UI/UX</span>
+<span class="tag">Startup Consulting</span>
+<span class="tag">Scientific Computing</span>
+<span class="tag">Git</span>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Education</h2>
+
+<div class="card">
+<h3>M.S. Research</h3>
+<p>Indian Institute of Technology Madras (IIT Madras)</p>
+
+<br>
+
+<h3>B.E. Mechanical Engineering</h3>
+<p>Thanthai Periyar Government Institute of Technology</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">What I Bring to Startups</h2>
+
+<div class="card">
+<ul>
+<li>0 → 1 Product Development</li>
+<li>Founder-Level Technical Discussions</li>
+<li>Flutter & Cross-Platform Expertise</li>
+<li>FinTech & Blockchain Product Development</li>
+<li>AI & SaaS Product Architecture</li>
+<li>Research-Driven Problem Solving</li>
+<li>Product Design & UX Thinking</li>
+<li>Technical Consulting & Strategy</li>
+<li>Startup Growth & Business Understanding</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>
+Elankovan Gopal • Product Developer • Flutter Engineer • Technology Consultant
+</p>
+</footer>
+
+</body>
+</html>
